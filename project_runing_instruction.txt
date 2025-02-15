@@ -1,0 +1,13 @@
+- Clone repo : https://github.com/SoubhikSinha/Multi-Language-Invoice-Extractor-Application.git
+
+- Create env : conda create --prefix ./venv python=3.11 -y
+
+- Activate env : conda activate venv/
+
+- Install Dependencies : pip install -r requirements.txt
+
+- Create and paste the Google API Key inside the `.env` file (LINK : https://aistudio.google.com/app/apikey)
+
+- Run the commmand : streamlit run app.python
+
+- Play around !
