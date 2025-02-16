@@ -20,7 +20,7 @@ def get_gemini_response(input, image, prompt):
 
 def input_image_details(uploaded_file): # Converting the uploaded image into bytes
     if uploaded_file is not None:
-        # Reaidng the file into bytes
+        # Reading the file into bytes
         bytes_data = uploaded_file.getvalue()
 
         image_parts = [
